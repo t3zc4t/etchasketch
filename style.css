@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    flex-direction:column;
+}
+#main{
+    display:flex;
+    flex-wrap:wrap;
+    max-width:500px;
+    border:10px outset #584545;
+    height:500px;
+    width:500px;
+    margin:0px auto;
+    flex:1 1 auto;
+}
+.gridElem{
+    flex:1 1 auto;
+    transition:background-color 1s
+}
+header{
+    display:flex;
+    justify-content:center;
+    margin:2vh;
+    height:5vh;
+}
+header button{
+    width:100px;
+    background-color:#584545;
+    color:#ffffff;
+    border:1px solid #584545
+}
+header button:hover{
+    background-color:#968585;
+    cursor:pointer
+}
